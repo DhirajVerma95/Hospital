@@ -88,6 +88,7 @@ header{
   top:0; left: 0;
   padding:2rem 1rem;
   z-index: 1000;
+  background-color: #0188DF;
 }
 
 .header-active{
@@ -103,11 +104,13 @@ header .container{
 }
 
 header a{
-  color:var(--black);
+  color:var(--white);
+ 
 }
 
 header a:hover{
-  color:var(--blue);
+  color:var(--black);
+  font-weight: bold;
 }
 
 header .container .logo{
@@ -409,9 +412,10 @@ Consultaion form */
 }
 
 .footer .col-md-4:nth-child(1) a{
-  font-size: 3rem;
+  font-size: 2rem;
   color:#fff;
 }
+
 
 .footer .col-md-4:nth-child(1) a span{
   color:var(--blue);
@@ -421,6 +425,7 @@ Consultaion form */
   font-size: 2rem;
   color:#ccc;
   display: block;
+
 }
 
 .footer h3{
