@@ -485,15 +485,19 @@ header .fa-times{
     display: block;
   }
 
+  header{
+    background-color:white;
+  }
+
   header .nav{
     position: fixed;
-    top:-100rem; left:50%;
+    top:-100rem; left:80%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 0 100vh rgba(0,0,0,.3);
     border-radius: .5rem;
     border:.3rem solid var(--white) !important;
-    background:#fff;
-    width: 95%;
+    background:#0188DF;
+    width: 50%;
     opacity: 0;
   }
 
@@ -517,6 +521,7 @@ header .fa-times{
   header .nav-toggle{
     top:50%;
     opacity: 1;
+
   }
 
   .contact form .inputBox input, select{
